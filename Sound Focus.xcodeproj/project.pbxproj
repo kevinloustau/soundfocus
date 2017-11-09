@@ -13,6 +13,7 @@
 		6BEA546C1F116B9F00728B8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BEA546A1F116B9F00728B8C /* Main.storyboard */; };
 		6BEA547A1F1170A400728B8C /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA54791F1170A400728B8C /* AudioEngine.swift */; };
 		6BED62321FB3BCDE005F5793 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BED62311FB3BCDE005F5793 /* AudioKit.framework */; };
+		FF952A7B990915390C4A9342 /* Pods_SoundFocus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F330046A2553F16A22211681 /* Pods_SoundFocus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,7 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6BEA54611F116B9F00728B8C /* Sound Focus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sound Focus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D22D625A897B7B7D3ECF20 /* Pods-SoundFocus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundFocus.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoundFocus/Pods-SoundFocus.release.xcconfig"; sourceTree = "<group>"; };
+		6BEA54611F116B9F00728B8C /* SoundFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BEA54641F116B9F00728B8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BEA54661F116B9F00728B8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6BEA54681F116B9F00728B8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +39,8 @@
 		6BEA546D1F116B9F00728B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BEA54791F1170A400728B8C /* AudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
 		6BED62311FB3BCDE005F5793 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKit.framework; sourceTree = "<group>"; };
+		A9809C52838ADE3BF7607D80 /* Pods-SoundFocus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundFocus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoundFocus/Pods-SoundFocus.debug.xcconfig"; sourceTree = "<group>"; };
+		F330046A2553F16A22211681 /* Pods_SoundFocus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundFocus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BED62321FB3BCDE005F5793 /* AudioKit.framework in Frameworks */,
+				FF952A7B990915390C4A9342 /* Pods_SoundFocus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,13 +62,14 @@
 				6BEA54631F116B9F00728B8C /* Sound Focus */,
 				6BEA54621F116B9F00728B8C /* Products */,
 				6BED62301FB3BCDE005F5793 /* Frameworks */,
+				C64BA70D194335454740EC2C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		6BEA54621F116B9F00728B8C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6BEA54611F116B9F00728B8C /* Sound Focus.app */,
+				6BEA54611F116B9F00728B8C /* SoundFocus.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,29 +91,42 @@
 			isa = PBXGroup;
 			children = (
 				6BED62311FB3BCDE005F5793 /* AudioKit.framework */,
+				F330046A2553F16A22211681 /* Pods_SoundFocus.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C64BA70D194335454740EC2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9809C52838ADE3BF7607D80 /* Pods-SoundFocus.debug.xcconfig */,
+				41D22D625A897B7B7D3ECF20 /* Pods-SoundFocus.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6BEA54601F116B9F00728B8C /* Sound Focus */ = {
+		6BEA54601F116B9F00728B8C /* SoundFocus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BEA54701F116B9F00728B8C /* Build configuration list for PBXNativeTarget "Sound Focus" */;
+			buildConfigurationList = 6BEA54701F116B9F00728B8C /* Build configuration list for PBXNativeTarget "SoundFocus" */;
 			buildPhases = (
+				E1EDC771FE4333941AAB5AFE /* [CP] Check Pods Manifest.lock */,
 				6BEA545D1F116B9F00728B8C /* Sources */,
 				6BEA545E1F116B9F00728B8C /* Frameworks */,
 				6BEA545F1F116B9F00728B8C /* Resources */,
 				6B5105B11F7C4E8400509BF7 /* Embed Frameworks */,
+				38F5B30BAD18E1F0C855324F /* [CP] Embed Pods Frameworks */,
+				AF71DBCD9ECE11875C95D6A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Sound Focus";
+			name = SoundFocus;
 			productName = "Sound Focus";
-			productReference = 6BEA54611F116B9F00728B8C /* Sound Focus.app */;
+			productReference = 6BEA54611F116B9F00728B8C /* SoundFocus.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +160,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6BEA54601F116B9F00728B8C /* Sound Focus */,
+				6BEA54601F116B9F00728B8C /* SoundFocus */,
 			);
 		};
 /* End PBXProject section */
@@ -157,6 +176,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38F5B30BAD18E1F0C855324F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SoundFocus/Pods-SoundFocus-frameworks.sh",
+				"${PODS_ROOT}/AudioKit/macOS/AudioKit.framework",
+				"${PODS_ROOT}/AudioKit/macOS/AudioKitUI.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKitUI.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoundFocus/Pods-SoundFocus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF71DBCD9ECE11875C95D6A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoundFocus/Pods-SoundFocus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1EDC771FE4333941AAB5AFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoundFocus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6BEA545D1F116B9F00728B8C /* Sources */ = {
@@ -289,6 +364,7 @@
 		};
 		6BEA54711F116B9F00728B8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9809C52838ADE3BF7607D80 /* Pods-SoundFocus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -300,6 +376,7 @@
 				);
 				INFOPLIST_FILE = "Sound Focus/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = kl.soundfocus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -310,6 +387,7 @@
 		};
 		6BEA54721F116B9F00728B8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D22D625A897B7B7D3ECF20 /* Pods-SoundFocus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -321,6 +399,7 @@
 				);
 				INFOPLIST_FILE = "Sound Focus/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = kl.soundfocus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -341,7 +420,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6BEA54701F116B9F00728B8C /* Build configuration list for PBXNativeTarget "Sound Focus" */ = {
+		6BEA54701F116B9F00728B8C /* Build configuration list for PBXNativeTarget "SoundFocus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6BEA54711F116B9F00728B8C /* Debug */,

@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6BEA54601F116B9F00728B8C"
-               BuildableName = "Sound Focus.app"
-               BlueprintName = "Sound Focus"
+               BuildableName = "SoundFocus.app"
+               BlueprintName = "SoundFocus"
                ReferencedContainer = "container:Sound Focus.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,8 +34,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6BEA54601F116B9F00728B8C"
-            BuildableName = "Sound Focus.app"
-            BlueprintName = "Sound Focus"
+            BuildableName = "SoundFocus.app"
+            BlueprintName = "SoundFocus"
             ReferencedContainer = "container:Sound Focus.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -58,8 +58,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6BEA54601F116B9F00728B8C"
-            BuildableName = "Sound Focus.app"
-            BlueprintName = "Sound Focus"
+            BuildableName = "SoundFocus.app"
+            BlueprintName = "SoundFocus"
             ReferencedContainer = "container:Sound Focus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -77,8 +77,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6BEA54601F116B9F00728B8C"
-            BuildableName = "Sound Focus.app"
-            BlueprintName = "Sound Focus"
+            BuildableName = "SoundFocus.app"
+            BlueprintName = "SoundFocus"
             ReferencedContainer = "container:Sound Focus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
